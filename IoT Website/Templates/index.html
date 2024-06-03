@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Smart Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+            <span>
+              Smart Home
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="custom_menu-btn ">
+              <button>
+                <span class=" s-1">
+                </span>
+                <span class="s-2">
+                </span>
+                <span class="s-3">
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="carousel_btn-container">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <h1>
+                      Enhancing Work Efficiency
+                    </h1>
+                    <p>
+                      Smart homes enhance work efficiency by automating tasks, allowing for seamless control and monitoring of devices 
+                      remotely, and creating a comfortable and productive environment.
+                  </div>
+                </div>
+                <div class="offset-md-1 col-md-4 img-container">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <h1>
+                      Customized Comfort
+                      <h1></h1>
+                    <p>
+                      Smart homes offer customized comfort settings tailored to individual preferences.
+                  </div>
+                </div>
+                <div class="offset-md-1 col-md-4 img-container">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1">
+                  <div class="detail-box">
+                    <h1>
+                      Improved Energy Efficiency
+                    </h1>
+                    <p>
+                      They enhance energy efficiency through automated adjustments of heating, cooling, and lighting.
+                    </p>
+                  </div>
+                </div>
+                <div class="offset-md-1 col-md-4 img-container">
+                  <div class="img-box img1">
+                    <img src="images/work.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- experience section -->
+
+  <section class="experience_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="chart chart_1">
+          <div id="nd"> 
+            <h1><img src="./images/temperature.png" id="nd1"></h1>
+            <h2>Temperature</h2>
+          </div>
+          <div class="thongso">
+            <div>
+              <h3 id="nhietdo"></h3>
+            </div>
+            <div>
+              <p style='font-size:25px;'>°C</p>
+            </div>
+          </div>
+          <div class="widget">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart chart_2">
+          <div id="da"> 
+            <h1><img src="./images/humidity.png" id="da1"></h1>
+            <h2>Humidity</h2>
+          </div>
+          <div class="thongso">
+            <div>
+               <h3 id="doam"></h3>
+            </div>
+            <div>
+              <p style='font-size:25px;'>%</p>
+            </div>
+          </div>
+          <div class="widget">
+            <canvas id="myChart2"></canvas>
+          </div>
+        </div>
+        
+      </div> 
+      <div class="row2">
+        <div class="chart1 chart_3">
+          <div id="da"> 
+            <h1><img src="./images/natural-gas.png" id="da1"></h1>
+            <h2>Gas</h2>
+          </div>
+          <div class="thongso">
+            <h3 id="khigas"></h3>
+          </div>
+          <div class="widget">
+            <canvas id="myChart3"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="category_section layout_padding">
+    <div class="container">
+      <div class="category_container">
+        <div class="box">
+          <div class="img-box">
+            <img id="bulb" src="images/off_light.png" alt="">
+          </div>
+
+          <div class="detail-box">
+            <h5>
+              Lamp
+            </h5>
+          </div>
+          <div class="btn">
+            <button type="button" id="btn1" >On</button>
+            <button type="button" id="btn2" >Off</button><br><br>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="img-box">
+            <img id="air_con" src="images/air_conditioning_off.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Air Conditioning
+            </h5>
+          </div>
+          <div class="btn">
+            <button type="button" id="btn3" >On</button>
+            <button type="button" id="btn4" >Off</button><br><br>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img-box">
+            <img id="ceiling-fan" src="images/ceiling-fan.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Celling Fan
+            </h5>
+          </div>
+          <div class="btn">
+            <button type="button" id="btn5" >On</button>
+            <button type="button" id="btn6" >Off</button><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/charts/live/fast/js?ver=1.1.1&ApiKey=AIzaSyBIlKUhmH_kQ4tD0RD3OktHpnIapPCVw0k"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/firebase.js"></script>
+</body>
+</body>
+
+</html>
